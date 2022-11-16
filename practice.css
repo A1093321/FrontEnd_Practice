@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*上方為 css reset*/
+
+body{
+	width: 1920px;
+	height: 3006px;
+}
+.practice{
+	margin-left: 360px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+h1{
+	width: 274px;
+	height: 190px;
+	margin-top: 40px;
+	text-align: left;
+	font: normal normal normal 80px/95px SF Pro Text;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.b1{
+	width: 1200px;
+	margin-top: 24px;
+	margin-bottom: 44px;
+	border: 2px solid #000000;
+	opacity: 1;
+}
+.image1{
+	width: 324px;
+	height: 324px;
+}
+.title{
+	margin-top: 48px;
+}
+.title .C{
+	display: inline;
+	text-align: left;
+	font: normal normal medium 32px/48px PingFang TC;
+	font-size: 32px;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.title .E{
+	margin-left: 16px;
+	display: inline;
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #A00404;
+	opacity: 1;
+}
+.b2{
+	margin-top: 8px;
+	margin-bottom: 16px;
+	width: 1200px;
+	height: 0px;
+	border: 1px solid #000000;
+	opacity: 1;
+}
+.content{
+	margin-bottom: 24px;
+	width: 696px;
+	height: 108px;
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.content1{
+	margin-bottom: 16px;
+	width: 603px;
+	height: 36px;
+	text-align: left;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.bg1{
+	width: 1920px;
+	height: 460px;
+	margin-top: 48px;
+	margin-left: 0px;
+	background: #415165 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.title1{
+	padding-top: 24px;
+	text-align: center;
+}
+.title1 .C1{
+	display: inline;
+	font: normal normal medium 32px/48px PingFang TC;
+	font-size: 32px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.title1 .E1{
+	display: inline;
+	margin-left: 16px;
+	text-align: left;
+	font: normal normal 600 24px/36px SF Pro Text;
+	font-size: 24px;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.b3{
+	margin-left: 462px;
+	margin-top: 8px;
+	margin-bottom: 40px;
+	width: 996px;
+	height: 0px;
+	border: 1px solid #FFFFFF;
+	opacity: 1;
+}
+.leftborder{
+	padding-left: 852px;
+}
+.contentS{
+	border-left: 1px solid #96A9C4;
+	opacity: 1;
+	padding-bottom: 8px;
+	padding-left: 24px;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.language{
+	border-left: 1px solid #96A9C4;
+	opacity: 1;
+	padding-left: 24px;
+	font: normal normal 300 24px/36px PingFang TC;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.bg2{
+	width: 1920px;
+	height: 400px;
+	margin-top: 80px;
+	margin-left: 0px;
+	background: #415165 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.b5{
+	margin-left: 462px;
+	margin-top: 8px;
+	margin-bottom: 24px;
+	width: 996px;
+	height: 0px;
+	border: 1px solid #FFFFFF;
+	opacity: 1;
+}
+.CM{
+	text-align: center;
+	opacity: 1;
+	padding-bottom: 16px;
+	padding-left: 24px;
+	font: normal normal 300 24px/36px SF Pro Text;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.space{
+	padding-top: 16px;
+	padding-left: 864px;
+}
+.image2{
+	display: inline;
+	padding-right: 24px;
+	width: 48px;
+	height: 48px;
+}
+.contentWE{
+	border-left: 1px solid #96A9C4;
+	opacity: 1;
+	padding-left: 24px;
+	margin-left: 24px;
+	text-align: left;
+	font-weight: bold;
+	font: normal normal medium 24px/36px PingFang TC;
+	font-size: 24px;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.contentWE1{
+	width: 642px;
+	border-left: 1px solid #96A9C4;
+	opacity: 1;
+	padding-left: 24px;
+	margin-left: 24px;
+	text-align: left;
+	font: normal normal 300 20px/30px PingFang TC;
+	font-size: 20px;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.image3{
+	width: 100px;
+	height: 100px;
+}
